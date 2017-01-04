@@ -1,6 +1,6 @@
 # Example Binder with environment.yml
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/swn1/example-conda-environment)
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/swn1/clustering-binder)
 
 A Binder-compatibible repo with an `environment.yml` file.
 
