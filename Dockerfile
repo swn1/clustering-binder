@@ -20,7 +20,7 @@ RUN echo "export PATH=/home/main/anaconda2/envs/binder/bin/:/home/main/anaconda3
 RUN conda install -n binder jupyter
 RUN /bin/bash -c "source activate binder && python -m ipykernel install --user"
 RUN mkdir /home/main/.jupyter
-RUN echo "c.NotebookApp.token = ''" >> /home/main/.jupyter/jupyter_notebook_config.py'
+RUN echo "c.NotebookApp.password = ''" >> /home/main/.jupyter/jupyter_notebook_config.py'
 
 USER main
 WORKDIR $HOME/notebooks
